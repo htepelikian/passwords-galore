@@ -42,3 +42,8 @@ function generatePassword() {
     var possibleCombo = [];
     var finalPassword = "";
 }
+    
+if (passwordOptions.askNumbers) {
+    for (var i of numbers)
+      possibleCombo.push(i);
+}
