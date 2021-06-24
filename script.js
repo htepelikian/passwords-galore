@@ -67,3 +67,8 @@ for (var i = 0; i < passwordOptions.length; i++) {
     finalPassword += possibleCombo[Math.floor(Math.random() * possibleCombo.length)];
     
 }
+
+console.log(finalPassword);
+  
+return finalPassword;
+}
