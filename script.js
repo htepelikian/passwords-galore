@@ -47,3 +47,7 @@ if (passwordOptions.askNumbers) {
     for (var i of numbers)
       possibleCombo.push(i);
 }
+if (passwordOptions.askLowerCase) {
+    for (var i of lowerCase)
+      possibleCombo.push(i);
+}
