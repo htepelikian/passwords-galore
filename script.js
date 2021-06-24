@@ -22,7 +22,7 @@ function writePassword() {
 }
 
 function generatePassword() {
-  // Prompts user to add a value, alerts if correct value is not added
+  // Prompts user to add a value, alerts if correct value / criteria is not entered
   while (true) {
     var firstPrompt = prompt("How long would you like your password to be? Choose between 8 to 128 characters.");
     if (!firstPrompt) {
