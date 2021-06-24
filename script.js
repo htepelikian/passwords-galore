@@ -33,4 +33,6 @@ function questions() {
       else
       isValid = true;
   
-    } 
+    } while(!isValid);
+      return responses;
+  }
