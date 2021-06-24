@@ -60,3 +60,5 @@ if (passwordOptions.askSpecialChar) {
       possibleCombo.push(i);
 }
 
+
+console.log(possibleCombo);
