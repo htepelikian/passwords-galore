@@ -36,3 +36,9 @@ function questions() {
     } while(!isValid);
       return responses;
   }
+// Function to combine all confirmed options
+function generatePassword() {
+    var passwordOptions = questions();
+    var possibleCombo = [];
+    var finalPassword = "";
+}
