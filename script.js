@@ -62,3 +62,8 @@ if (passwordOptions.askSpecialChar) {
 
 
 console.log(possibleCombo);
+
+for (var i = 0; i < passwordOptions.length; i++) {
+    finalPassword += possibleCombo[Math.floor(Math.random() * possibleCombo.length)];
+    
+}
