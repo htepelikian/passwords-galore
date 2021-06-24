@@ -51,3 +51,7 @@ if (passwordOptions.askLowerCase) {
     for (var i of lowerCase)
       possibleCombo.push(i);
 }
+if (passwordOptions.askUpperCase) {
+    for (var i of upperCase)
+      possibleCombo.push(i);
+}
