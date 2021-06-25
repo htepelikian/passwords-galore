@@ -28,7 +28,7 @@ If incorrect criteria or values are put in - the user is prompted to enter a cor
 
 ## Deployed Link
 
-* [See Live Site](#)
+* [https://htepelikian.github.io/passwords-galore/]
 
 
 ## Authors
